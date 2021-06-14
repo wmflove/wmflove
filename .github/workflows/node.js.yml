@@ -16,7 +16,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0-16/4 * * *'
+    - cron: '0 06-23/4 * * *'
 env:
   MY_CONFIG: ${{ secrets.MY_CONFIG }}
   PAT: ${{ secrets.PAT }}
