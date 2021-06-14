@@ -153,3 +153,553 @@ jobs:
         with:
           name: dyid.txt
           path: lib/dyid.txt
+  lottery_6:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 6
+          COOKIE: ${{ secrets.COOKIE6 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_7:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 7
+          COOKIE: ${{ secrets.COOKIE7 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_8:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 8
+          COOKIE: ${{ secrets.COOKIE8 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_9:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 9
+          COOKIE: ${{ secrets.COOKIE9 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_10:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 10
+          COOKIE: ${{ secrets.COOKIE10 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_11:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 11
+          COOKIE: ${{ secrets.COOKIE11 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_12:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 12
+          COOKIE: ${{ secrets.COOKIE12 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_13:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 13
+          COOKIE: ${{ secrets.COOKIE13 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_14:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 14
+          COOKIE: ${{ secrets.COOKIE14 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_15:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 15
+          COOKIE: ${{ secrets.COOKIE15 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_16:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 16
+          COOKIE: ${{ secrets.COOKIE16 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_17:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 17
+          COOKIE: ${{ secrets.COOKIE17 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_18:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 18
+          COOKIE: ${{ secrets.COOKIE18 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_19:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 19
+          COOKIE: ${{ secrets.COOKIE19 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_20:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 20
+          COOKIE: ${{ secrets.COOKIE20 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_21:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 21
+          COOKIE: ${{ secrets.COOKIE21 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_22:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 22
+          COOKIE: ${{ secrets.COOKIE22 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_23:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 23
+          COOKIE: ${{ secrets.COOKIE23 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_24:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 24
+          COOKIE: ${{ secrets.COOKIE24 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_25:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 25
+          COOKIE: ${{ secrets.COOKIE25 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_26:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 26
+          COOKIE: ${{ secrets.COOKIE26 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_27:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 27
+          COOKIE: ${{ secrets.COOKIE27 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_28:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 28
+          COOKIE: ${{ secrets.COOKIE28 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_29:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 29
+          COOKIE: ${{ secrets.COOKIE29 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
+  lottery_30:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout codes'
+        uses: actions/checkout@v2
+      - name: 'Use Node.js'
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.15.5'
+      - name: 'Run in Nodejs'
+        shell: bash
+        env:
+          NUMBER: 30
+          COOKIE: ${{ secrets.COOKIE30 }}
+        run: |
+          npm install
+          npm start
+      - name: 'Upload dyid to artifact'
+        uses: actions/upload-artifact@v2
+        with:
+          name: dyid.txt
+          path: lib/dyid.txt
