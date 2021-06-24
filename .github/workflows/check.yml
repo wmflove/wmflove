@@ -218,7 +218,7 @@ jobs:
         run: |
           npm install
           npm run check
-lottery_12:
+  lottery_12:
     runs-on: ubuntu-latest
     steps:
       - name: 'Checkout codes'
